@@ -1,5 +1,7 @@
 package _13_stringBuilder;
 
+import java.util.Scanner;
+
 public class Q01 {
     public static void main(String[] args) {
 		/*
@@ -12,7 +14,14 @@ public class Q01 {
 	        It is not a palindrome"
 
 		 */
-
+    	Scanner scan=new Scanner(System.in);
+    	System.out.print("Lutfen metin giriniz: ");
+    	String str=scan.nextLine();
+    	StringBuilder sb=new StringBuilder(str);
+    	String tersMetin= sb.reverse().toString();
+    	if(tersMetin.equalsIgnoreCase(str)) {
+    		System.out.println("It is a palindrome");
+    	}else {System.out.println("It is not a palindrome");}
     }
 
 }

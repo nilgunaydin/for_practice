@@ -12,13 +12,13 @@ public class Q04 {
         List<Integer> listNotlar = new ArrayList<>();
         Scanner scan = new Scanner(System.in);
         String dewamkee;
-        //ortalamasi alinacak iist elemanlri kullanicidan alindi
+        //ortalamasi alinacak int elemanlari kullanicidan alindi
         do {
             System.out.print("not giriniz : ");
             int ogrNot = scan.nextInt();
-            System.out.println("dewamkeee : E/H");
+             listNotlar.add(ogrNot);
+             System.out.println("dewamkeee : E/H");
             dewamkee = scan.next();
-            listNotlar.add(ogrNot);
         } while (dewamkee.equalsIgnoreCase("E"));
 
         //ortlama hesaplanmasi..

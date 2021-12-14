@@ -40,6 +40,6 @@ public class Q09 {
             sayac = 0;
         }
         System.out.println(enCokTekrarEden);
-    }
+    scan.close();}
 }
 

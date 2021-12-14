@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class Q05 {
     public static void main(String[] args) {
-        // Kullanıcıdan alacağınız 6 elemanlı bir dizinin
-        // sadece tek elemanlarını ayrı diziye bir metodda atayarak
-        // main de yazdırınız.
+        // Kullanicidan alacaginiz 6 elemanli bir dizinin
+        // sadece tek elemanlarini ayri diziye bir metodda atayarak
+        // main de yazdiriniz.
 
         Scanner scan = new Scanner(System.in);
         int arr[] = new int[6];
@@ -17,7 +17,7 @@ public class Q05 {
             arr[i] = scan.nextInt();
         }
         System.out.println(tekEleman(arr));
-    }
+  scan.close();  }
 
     private static ArrayList<Integer> tekEleman(int[] arr) {
 

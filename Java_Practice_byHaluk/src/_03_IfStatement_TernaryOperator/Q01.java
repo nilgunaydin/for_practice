@@ -17,6 +17,7 @@ public class Q01 {
 		System.out.print("lütfen iþlem adýný yazýnýz:");
 		String islem= scan.next();
 		
+		
 		if (islem.equals("arti")) {System.out.println(sayi1+sayi2);
 			
 		} else if(islem.equals("eksi")){System.out.println(sayi1-sayi2);
